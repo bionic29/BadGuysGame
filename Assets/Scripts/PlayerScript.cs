@@ -16,11 +16,17 @@ public class PlayerScript : MonoBehaviour
     private Vector3 objectOffset;
 
     public GrapplingRope Rope;
+
+    public int jumpHeight;
+
+    public static bool TommyEquipped;
+    public GameObject Tommy;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         isGrappling = false;
+        TommyEquipped = false;
     }
 
     // Update is called once per frame
@@ -50,18 +56,25 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)&& JumpAble)
         {
-            rb.velocity = new Vector3(movement.x, 20);
+            rb.velocity = new Vector3(movement.x, jumpHeight);
             
         }
 
-
+        if (TommyEquipped)
+        {
+            Tommy.SetActive(true);
+        }
+        else
+        {
+            Tommy.SetActive(false);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!GrappleActive)
         {
-            if (collision.gameObject.tag == "Floor")
+            if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Movables")
         {
             isGrappling = false;
             JumpAble = true;
@@ -73,7 +86,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (!GrappleActive)
         {
-            if (collision.gameObject.tag == "Floor")
+            if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Movables")
             {
                 isGrappling = false;
                 JumpAble = true;
@@ -83,7 +96,7 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Floor")
+        if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Movables")
         {
             JumpAble = false;
         }

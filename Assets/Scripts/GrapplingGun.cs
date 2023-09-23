@@ -103,6 +103,14 @@ public class GrapplingGun : MonoBehaviour
             Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
             RotateGun(mousePos, true);
         }
+        if (transform.position.x > player.transform.position.x)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (transform.position.x < player.transform.position.x)
+        {
+            transform.localScale = new Vector3(1, -1, 1);
+        }
     }
 
     void RotateGun(Vector3 lookPoint, bool allowRotationOverTime)

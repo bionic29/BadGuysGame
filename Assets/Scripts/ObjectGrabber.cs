@@ -58,8 +58,12 @@ public class ObjectGrabber : MonoBehaviour
             {
                 
                 grabbedObj.GetComponent<Rigidbody2D>().isKinematic = false;
-               
-                grabbedObj.GetComponent<Rigidbody2D>().AddForce(player.rb.velocity*2, ForceMode2D.Impulse);
+                float Yvel = 0;
+                if (player.rb.velocity.y > 0)
+                {
+                    Yvel = player.rb.velocity.y;
+                }
+                grabbedObj.GetComponent<Rigidbody2D>().AddForce(new Vector2(player.rb.velocity.x,Yvel).normalized*30, ForceMode2D.Impulse);
                 grabbedObj.transform.SetParent(null);
                 grabbedObj=null;
                 //Physics2D.IgnoreLayerCollision(0, 3, false);
@@ -68,7 +72,14 @@ public class ObjectGrabber : MonoBehaviour
 
         }
         Debug.DrawRay(rayPoint.position, transform.right * RayDistance);
-       
+        if (transform.position.x > player.transform.position.x)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (transform.position.x < player.transform.position.x)
+        {
+            transform.localScale = new Vector3(1, -1, 1);
+        }
     }
 
     void RotateGun(Vector3 lookPoint, bool allowRotationOverTime)

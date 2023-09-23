@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChooseGunType : MonoBehaviour
 {
     public GameObject Grab, Grapple;
+    Transform pivotPoint;
     PlayerScript player;
     // Start is called before the first frame update
     
@@ -21,5 +22,7 @@ public class ChooseGunType : MonoBehaviour
             Grab.SetActive(false);
             Grapple.SetActive(true);
         }
+
+        
     }
 }
