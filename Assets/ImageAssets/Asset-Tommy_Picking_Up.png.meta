@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 75b62067186eb934f87282d3ee83dafd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8395910551123202165
+    second: Asset-Tommy_Picking_Up_0
+  - first:
+      213: 3018858080443722707
+    second: Asset-Tommy_Picking_Up_1
+  - first:
+      213: 9050417109856287989
+    second: Asset-Tommy_Picking_Up_2
+  - first:
+      213: 4092987705222380415
+    second: Asset-Tommy_Picking_Up_3
+  - first:
+      213: 1919061991723799089
+    second: Asset-Tommy_Picking_Up_4
+  - first:
+      213: 7710787555110357778
+    second: Asset-Tommy_Picking_Up_5
+  - first:
+      213: 1109131486508226371
+    second: Asset-Tommy_Picking_Up_6
+  - first:
+      213: 300285830604706682
+    second: Asset-Tommy_Picking_Up_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -114,7 +138,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 291
+        width: 135
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57017ada924448470800000000000000
+      internalID: 8395910551123202165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 288
+        width: 134
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db6a28fd6325e920800000000000000
+      internalID: 3018858080443722707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 277
+        width: 138
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf916096a899d70800000000000000
+      internalID: 9050417109856287989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_3
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 277
+        width: 138
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b32dfd1a63dc830800000000000000
+      internalID: 4092987705222380415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 15
+        width: 121
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13296aeb6b0e1aa10800000000000000
+      internalID: 1919061991723799089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 22
+        width: 152
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b0bd88d68320b60800000000000000
+      internalID: 7710787555110357778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 32
+        width: 146
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3471686e53d646f00800000000000000
+      internalID: 1109131486508226371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_Picking_Up_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 36
+        width: 150
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73d6483f54da2400800000000000000
+      internalID: 300285830604706682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

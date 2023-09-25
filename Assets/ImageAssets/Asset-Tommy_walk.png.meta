@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: fbf3ce00c6a29d54b8aa5da524f7e1bf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5392792764608849639
+    second: Asset-Tommy_walk_0
+  - first:
+      213: 7155438295626618753
+    second: Asset-Tommy_walk_1
+  - first:
+      213: -7679644940364901099
+    second: Asset-Tommy_walk_2
+  - first:
+      213: -9163720450229374686
+    second: Asset-Tommy_walk_3
+  - first:
+      213: 1839769489387004390
+    second: Asset-Tommy_walk_4
+  - first:
+      213: 791929740617408211
+    second: Asset-Tommy_walk_5
+  - first:
+      213: 3110091326219468376
+    second: Asset-Tommy_walk_6
+  - first:
+      213: -5579540590306677230
+    second: Asset-Tommy_walk_7
+  - first:
+      213: -1895812984399641063
+    second: Asset-Tommy_walk_8
+  - first:
+      213: 6706962539920902807
+    second: Asset-Tommy_walk_9
+  - first:
+      213: 1073340027736000901
+    second: Asset-Tommy_walk_10
+  - first:
+      213: -7143031727460134805
+    second: Asset-Tommy_walk_11
+  - first:
+      213: 4585762398486504408
+    second: Asset-Tommy_walk_12
+  - first:
+      213: 6383317519119513013
+    second: Asset-Tommy_walk_13
+  - first:
+      213: 927023089415805331
+    second: Asset-Tommy_walk_14
+  - first:
+      213: 55953652468169172
+    second: Asset-Tommy_walk_15
+  - first:
+      213: -6018960711337307589
+    second: Asset-Tommy_walk_16
+  - first:
+      213: -8725539761039078852
+    second: Asset-Tommy_walk_17
+  - first:
+      213: 9140691284508623810
+    second: Asset-Tommy_walk_18
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +98,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -114,7 +171,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 808
+        width: 136
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6aec9727c07da40800000000000000
+      internalID: 5392792764608849639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 809
+        width: 137
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1871d0ff7393d4360800000000000000
+      internalID: 7155438295626618753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 809
+        width: 110
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5159c608d9b6c6590800000000000000
+      internalID: -7679644940364901099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 807
+        width: 134
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221781f4dcce3d080800000000000000
+      internalID: -9163720450229374686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_4
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 811
+        width: 134
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1a3836a9c288910800000000000000
+      internalID: 1839769489387004390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 570
+        width: 134
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de519c37ef7dfa00800000000000000
+      internalID: 791929740617408211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 570
+        width: 135
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eb55e4593492b20800000000000000
+      internalID: 3110091326219468376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 570
+        width: 134
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ea5e0156d7192b0800000000000000
+      internalID: -5579540590306677230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 568
+        width: 136
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91649489228b0b5e0800000000000000
+      internalID: -1895812984399641063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 568
+        width: 136
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a46d125eae31d50800000000000000
+      internalID: 6706962539920902807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 319
+        width: 136
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5898964811545ee00800000000000000
+      internalID: 1073340027736000901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 319
+        width: 136
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d4614d7adedc90800000000000000
+      internalID: -7143031727460134805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 319
+        width: 135
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a122ea96e3af30800000000000000
+      internalID: 4585762398486504408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 319
+        width: 135
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b575af9679169850800000000000000
+      internalID: 6383317519119513013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_14
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 319
+        width: 135
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399d63796927ddc00800000000000000
+      internalID: 927023089415805331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 134
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9304bec89c6c000800000000000000
+      internalID: 55953652468169172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 45
+        width: 134
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3215b37f1b587ca0800000000000000
+      internalID: -6018960711337307589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 47
+        width: 136
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a08b531d7a8e680800000000000000
+      internalID: -8725539761039078852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Tommy_walk_18
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 47
+        width: 135
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c345a63b424ade70800000000000000
+      internalID: 9140691284508623810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

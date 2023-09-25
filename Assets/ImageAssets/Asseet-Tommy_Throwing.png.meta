@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 6a60cd52d30473e40b9739b2a4326620
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2205228476651049818
+    second: Asseet-Tommy_Throwing_0
+  - first:
+      213: 216224757818254895
+    second: Asseet-Tommy_Throwing_1
+  - first:
+      213: -3712354414549191360
+    second: Asseet-Tommy_Throwing_2
+  - first:
+      213: -2615896696057313581
+    second: Asseet-Tommy_Throwing_3
+  - first:
+      213: -2052739760543405940
+    second: Asseet-Tommy_Throwing_4
+  - first:
+      213: -5135050925076839197
+    second: Asseet-Tommy_Throwing_5
+  - first:
+      213: 4522285759221477981
+    second: Asseet-Tommy_Throwing_6
+  - first:
+      213: -7765079722686886889
+    second: Asseet-Tommy_Throwing_7
+  - first:
+      213: -3436950387517257237
+    second: Asseet-Tommy_Throwing_8
+  - first:
+      213: -7913350127789437229
+    second: Asseet-Tommy_Throwing_9
+  - first:
+      213: -601529080317363981
+    second: Asseet-Tommy_Throwing_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -114,7 +147,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 140
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac63a062647561e0800000000000000
+      internalID: -2205228476651049818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 526
+        width: 142
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26e669854f200300800000000000000
+      internalID: 216224757818254895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 535
+        width: 152
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045317034511b7cc0800000000000000
+      internalID: -3712354414549191360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 535
+        width: 153
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6c26680d772bbd0800000000000000
+      internalID: -2615896696057313581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 310
+        width: 175
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886d7c40143383e0800000000000000
+      internalID: -2052739760543405940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 303
+        width: 179
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4014be362acb8b0800000000000000
+      internalID: -5135050925076839197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 274
+        width: 139
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52343b10f262ce30800000000000000
+      internalID: 4522285759221477981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_7
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 266
+        width: 139
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cc8a42225ec3490800000000000000
+      internalID: -7765079722686886889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 135
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9846115df7d40d0800000000000000
+      internalID: -3436950387517257237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 48
+        width: 136
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de81d94cf12e2290800000000000000
+      internalID: -7913350127789437229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asseet-Tommy_Throwing_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 42
+        width: 135
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8bd9d0d70f6a7f0800000000000000
+      internalID: -601529080317363981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

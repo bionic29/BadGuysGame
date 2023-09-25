@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 6701588368043405664}
   - component: {fileID: 6701588368043405676}
   - component: {fileID: 6701588368043405677}
+  - component: {fileID: 8589474675531100802}
   m_Layer: 0
   m_Name: GrabGun
   m_TagString: Untagged
@@ -190,7 +191,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6701588368043405674}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -199,6 +200,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!95 &8589474675531100802
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701588368043405674}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6701588368186120742
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6701588368431725136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 1.5, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6701588368810064387}
@@ -792,6 +814,7 @@ MonoBehaviour:
   grappleToAll: 0
   grappableLayerNumber: 6
   m_camera: {fileID: 0}
+  cursor: {fileID: 0}
   gunHolder: {fileID: 6701588368341480892}
   gunPivot: {fileID: 6701588367103952600}
   firePoint: {fileID: 6701588368948491552}
@@ -915,7 +938,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6701588368810064386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.3, z: 0}
+  m_LocalPosition: {x: -1, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6701588368431725137}
