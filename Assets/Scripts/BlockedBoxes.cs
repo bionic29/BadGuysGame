@@ -14,6 +14,7 @@ public class BlockedBoxes : MonoBehaviour
             if (Collisionrb.velocity.magnitude > 15)
             {
                 Debug.Log(Collisionrb.velocity.magnitude);
+                Collisionrb.velocity = -Collisionrb.velocity / 5;
                 gameObject.SetActive(false);
             }
             else

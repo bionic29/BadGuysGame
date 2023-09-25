@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BeforeTommyAttach : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    bool TouchedPlayer;
+
+    private void Update()
     {
-        if (collision.CompareTag("Player"))
+        if (TouchedPlayer)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -15,6 +17,24 @@ public class BeforeTommyAttach : MonoBehaviour
             }
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            TouchedPlayer = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            TouchedPlayer = false;
+        }
+    }
+
+
+    /*
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -26,4 +46,6 @@ public class BeforeTommyAttach : MonoBehaviour
             }
         }
     }
+    */
+
 }

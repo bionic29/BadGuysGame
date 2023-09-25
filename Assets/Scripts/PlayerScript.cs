@@ -26,7 +26,7 @@ public class PlayerScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         isGrappling = false;
-        TommyEquipped = false;
+        
     }
 
     // Update is called once per frame
@@ -68,8 +68,9 @@ public class PlayerScript : MonoBehaviour
         {
             Tommy.SetActive(false);
         }
-    }
 
+    }
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!GrappleActive)
@@ -102,6 +103,28 @@ public class PlayerScript : MonoBehaviour
         }
 
     }
+    /*
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!GrappleActive)
+        {
+            if (collision.gameObject.tag == "Floor" )
+            {
+                isGrappling = false;
+                JumpAble = true;
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Floor")
+        {
+            JumpAble = false;
+        }
+
+    }
+    */
 
     public void SetGrapple() 
     {

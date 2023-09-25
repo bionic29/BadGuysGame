@@ -17,7 +17,7 @@ public class ChooseGunType : MonoBehaviour
             Grab.SetActive(true);
             Grapple.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha2)&& EnableGrapple.GrappleEnabled)
         {
             Grab.SetActive(false);
             Grapple.SetActive(true);

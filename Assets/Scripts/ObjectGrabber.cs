@@ -54,7 +54,7 @@ public class ObjectGrabber : MonoBehaviour
                 //grabbedObj.GetComponent<Collider2D>().enabled=false;
                 //Physics2D.IgnoreLayerCollision(0, 3, true);
             }
-            else if (Input.GetKeyDown(KeyCode.Mouse0) )
+            else if (Input.GetKeyDown(KeyCode.Mouse0) || (Input.GetKeyDown(KeyCode.Alpha2) && EnableGrapple.GrappleEnabled))
             {
                 
                 grabbedObj.GetComponent<Rigidbody2D>().isKinematic = false;

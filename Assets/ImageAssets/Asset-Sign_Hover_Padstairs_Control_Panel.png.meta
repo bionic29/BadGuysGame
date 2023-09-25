@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: ecc833a10c0c60f43a4c639d546dbc82
+guid: 6d0b7d4a00889c44abf7c71ff4a86b52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2731475803939216311
-    second: Asset-Buttons_0
+      213: -2543966474939463835
+    second: Asset-Sign_Hover_Padstairs_Control_Panel_0
   - first:
-      213: 4165199674149536973
-    second: Asset-Buttons_1
+      213: -5478950162058363343
+    second: Asset-Sign_Hover_Padstairs_Control_Panel_1
   - first:
-      213: 1862907218196420182
-    second: Asset-Buttons_2
+      213: 3744675050269795028
+    second: Asset-Sign_Hover_Padstairs_Control_Panel_2
   - first:
-      213: 3930235648894386782
-    second: Asset-Buttons_3
-  - first:
-      213: 7650210702187046926
-    second: Asset-Buttons_4
+      213: -3293611310274586126
+    second: Asset-Sign_Hover_Padstairs_Control_Panel_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -131,106 +128,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asset-Buttons_0
+      name: Asset-Sign_Hover_Padstairs_Control_Panel_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 271
-        width: 211
-        height: 115
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
+        x: 86
+        y: 254
+        width: 194
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 944e0a17a39d71ad0800000000000000
-      internalID: -2731475803939216311
+      spriteID: 5670bb438f302bcd0800000000000000
+      internalID: -2543966474939463835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset-Buttons_1
+      name: Asset-Sign_Hover_Padstairs_Control_Panel_1
       rect:
         serializedVersion: 2
-        x: 271
-        y: 272
-        width: 211
-        height: 105
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 407
+        y: 288
+        width: 289
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc481441903cdc930800000000000000
-      internalID: 4165199674149536973
+      spriteID: 13e31783bdbd6f3b0800000000000000
+      internalID: -5478950162058363343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset-Buttons_2
+      name: Asset-Sign_Hover_Padstairs_Control_Panel_2
       rect:
         serializedVersion: 2
-        x: 538
-        y: 273
-        width: 211
-        height: 88
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 86
+        y: 9
+        width: 194
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 656db1eae306ad910800000000000000
-      internalID: 1862907218196420182
+      spriteID: 4d2699a3e12c7f330800000000000000
+      internalID: 3744675050269795028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset-Buttons_3
+      name: Asset-Sign_Hover_Padstairs_Control_Panel_3
       rect:
         serializedVersion: 2
-        x: 21
-        y: 166
-        width: 211
-        height: 72
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 389
+        y: 54
+        width: 291
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e524de7df700b8630800000000000000
-      internalID: 3930235648894386782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset-Buttons_4
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 169
-        width: 211
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0820c0e9120b2a60800000000000000
-      internalID: 7650210702187046926
+      spriteID: 2f9dfdea6fdba42d0800000000000000
+      internalID: -3293611310274586126
       vertices: []
       indices: 
       edges: []

@@ -6,25 +6,46 @@ public class ButtonToActivate : MonoBehaviour
 {
 
     public GameObject ThingToActive;
+    Animator anim;
+    int ObjectsOn;
+
+    //public BoxCollider2D col;
     // Start is called before the first frame update
     void Start()
     {
         ThingToActive.SetActive(false);
+
+        anim = GetComponent<Animator>();
+        anim.SetBool("Open", false);
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void Update()
     {
-        if (collision.CompareTag("Player") || collision.CompareTag("Movables")) 
+        if(ObjectsOn > 0)
         {
+            anim.SetBool("Open", true);
             ThingToActive.SetActive(true);
+        }
+        else
+        {
+            anim.SetBool("Open", false); 
+            ThingToActive.SetActive(false);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player") || collision.CompareTag("Movables"))
+        if (collision.transform.tag=="Player" || collision.transform.tag == "Movables") 
         {
-            ThingToActive.SetActive(false);
+            ObjectsOn++;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player" || collision.transform.tag == "Movables")
+        {
+            ObjectsOn--;
         }
     }
 }
