@@ -40,12 +40,14 @@ public class GrapplingRope : MonoBehaviour
 
         m_lineRenderer.enabled = true;
         player = FindObjectOfType<PlayerScript>().GetComponent<PlayerScript>();
+        grapplingGun.anim.SetBool("Grappling", true);
     }
 
     private void OnDisable()
     {
         m_lineRenderer.enabled = false;
         isGrappling = false;
+        grapplingGun.anim.SetBool("Grappling", false);
         //player.isGrappling = false;
     }
 

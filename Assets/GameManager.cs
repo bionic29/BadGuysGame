@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     Scene scene;
-
+    public static Vector2 LastCheckPoint = new Vector2(-5,-2.5f);
     // Start is called before the first frame update
     void Start()
     {

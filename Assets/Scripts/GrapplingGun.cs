@@ -14,10 +14,6 @@ public class GrapplingGun : MonoBehaviour
     [Header("Main Camera:")]
     public Camera m_camera;
 
-
-    [Header("TargetIndicator:")]
-    public Cursor cursor;
-
     [Header("Transform Ref:")]
     public Transform gunHolder;
     public Transform gunPivot;
@@ -55,12 +51,13 @@ public class GrapplingGun : MonoBehaviour
     [HideInInspector] public Vector2 grapplePoint;
     [HideInInspector] public Vector2 grappleDistanceVector;
 
+    public Animator anim;
     private void Start()
     {
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
         player = FindObjectOfType<PlayerScript>().GetComponent<PlayerScript>();
-        cursor = FindObjectOfType<Cursor>().GetComponent<Cursor>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -78,7 +75,7 @@ public class GrapplingGun : MonoBehaviour
             }
             else
             {
-                Vector2 mousePos = cursor.transform.position;
+                Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
                 RotateGun(mousePos, true);
                 player.GrappleActive = false;
             }
@@ -104,7 +101,7 @@ public class GrapplingGun : MonoBehaviour
         
         else
         {
-            Vector2 mousePos = cursor.transform.position;
+            Vector2 mousePos = m_camera.ScreenToWorldPoint(Input.mousePosition);
             RotateGun(mousePos, true);
         }
         if (transform.position.x > player.transform.position.x)

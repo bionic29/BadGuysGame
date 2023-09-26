@@ -27,6 +27,9 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         isGrappling = false;
         
+        transform.position = GameManager.LastCheckPoint;
+
+
     }
 
     // Update is called once per frame
@@ -39,7 +42,7 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            rb.velocity += new Vector2(x/30 , 0);
+            rb.velocity += new Vector2(x/50 , 0);
         }
         
 

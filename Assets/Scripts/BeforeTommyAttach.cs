@@ -5,7 +5,7 @@ using UnityEngine;
 public class BeforeTommyAttach : MonoBehaviour
 {
     bool TouchedPlayer;
-
+    public Dialogue DialogueOBJ;
     private void Update()
     {
         if (TouchedPlayer)
@@ -21,6 +21,9 @@ public class BeforeTommyAttach : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            if(!DialogueOBJ.dialogueDone)
+            DialogueOBJ.gameObject.SetActive(true);
+
             TouchedPlayer = true;
         }
     }

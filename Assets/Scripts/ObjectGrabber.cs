@@ -27,10 +27,14 @@ public class ObjectGrabber : MonoBehaviour
     [SerializeField] private bool rotateOverTime = true;
     [Range(0, 60)] [SerializeField] private float rotationSpeed = 4;
 
+    Animator anim;
     private void Start()
     {
         LayerIndex = LayerMask.NameToLayer("Objects");
         player = FindObjectOfType<PlayerScript>().GetComponent<PlayerScript>();
+        anim = GetComponent<Animator>();
+        anim.SetBool("Grabbed", false);
+
     }
 
     void Update()
@@ -51,10 +55,11 @@ public class ObjectGrabber : MonoBehaviour
                 grabbedObj.transform.position=grabPoint.position;
                 grabbedObj.transform.SetParent(grabPoint);
                 sr = grabbedObj.GetComponentInChildren<SpriteRenderer>();
+                anim.SetBool("Grabbed", true);
                 //grabbedObj.GetComponent<Collider2D>().enabled=false;
                 //Physics2D.IgnoreLayerCollision(0, 3, true);
             }
-            else if (Input.GetKeyDown(KeyCode.Mouse0) || (Input.GetKeyDown(KeyCode.Alpha2) && EnableGrapple.GrappleEnabled))
+            else if ((Input.GetKeyDown(KeyCode.Mouse0) || (Input.GetKey(KeyCode.Alpha2) && EnableGrapple.GrappleEnabled))&& grabbedObj != null)
             {
                 
                 grabbedObj.GetComponent<Rigidbody2D>().isKinematic = false;
@@ -66,6 +71,7 @@ public class ObjectGrabber : MonoBehaviour
                 grabbedObj.GetComponent<Rigidbody2D>().AddForce(new Vector2(player.rb.velocity.x,Yvel).normalized*30, ForceMode2D.Impulse);
                 grabbedObj.transform.SetParent(null);
                 grabbedObj=null;
+                anim.SetBool("Grabbed", false);
                 //Physics2D.IgnoreLayerCollision(0, 3, false);
 
             }
