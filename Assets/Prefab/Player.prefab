@@ -554,8 +554,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
-  m_LinearDrag: 0.2
+  m_Mass: 1
+  m_LinearDrag: 0.15
   m_AngularDrag: 1
   m_GravityScale: 3
   m_Material: {fileID: 0}
@@ -623,7 +623,7 @@ MonoBehaviour:
   isGrappling: 0
   GrappleActive: 0
   Rope: {fileID: 6701588368186120760}
-  jumpHeight: 18
+  jumpHeight: 17
   Tommy: {fileID: 6701588367103952583}
 --- !u!95 &6701588368341480880
 Animator:

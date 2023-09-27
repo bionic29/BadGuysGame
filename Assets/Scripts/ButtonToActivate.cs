@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ButtonToActivate : MonoBehaviour
 {
+    public bool Deactivate;
 
     public GameObject ThingToActive;
     Animator anim;
@@ -13,6 +14,7 @@ public class ButtonToActivate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(!Deactivate)
         ThingToActive.SetActive(false);
 
         anim = GetComponent<Animator>();
@@ -24,12 +26,18 @@ public class ButtonToActivate : MonoBehaviour
         if(ObjectsOn > 0)
         {
             anim.SetBool("Open", true);
-            ThingToActive.SetActive(true);
+            if (!Deactivate)
+                ThingToActive.SetActive(true);
+            else
+                ThingToActive.SetActive(false);
         }
         else
         {
-            anim.SetBool("Open", false); 
-            ThingToActive.SetActive(false);
+            anim.SetBool("Open", false);
+            if (!Deactivate)
+                ThingToActive.SetActive(false);
+            else
+                ThingToActive.SetActive(true);
         }
     }
 
