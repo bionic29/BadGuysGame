@@ -56,12 +56,12 @@ public class ObjectGrabber : MonoBehaviour
                 grabbedObj.transform.SetParent(grabPoint);
                 sr = grabbedObj.GetComponentInChildren<SpriteRenderer>();
                 anim.SetBool("Grabbed", true);
-                //grabbedObj.GetComponent<Collider2D>().enabled=false;
+                grabbedObj.GetComponent<BoxCollider2D>().size=new Vector2(1f, 1f);
                 //Physics2D.IgnoreLayerCollision(0, 3, true);
             }
             else if ((Input.GetKeyDown(KeyCode.Mouse0) || (Input.GetKey(KeyCode.Alpha2) && EnableGrapple.GrappleEnabled))&& grabbedObj != null)
             {
-                
+                grabbedObj.GetComponent<BoxCollider2D>().size = new Vector2(1.5f, 1.5f);
                 grabbedObj.GetComponent<Rigidbody2D>().isKinematic = false;
                 float Yvel = 0;
                 if (player.rb.velocity.y > 0)

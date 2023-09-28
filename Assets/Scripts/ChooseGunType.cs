@@ -12,6 +12,7 @@ public class ChooseGunType : MonoBehaviour
     private void Start()
     {
         WeaponType = 1;
+        
     }
     // Update is called once per frame
     void Update()

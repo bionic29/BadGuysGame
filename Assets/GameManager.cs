@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     Scene scene;
-    public static Vector2 LastCheckPoint = new Vector2(-5,-2.5f);
+    public static Vector2 LastCheckPoint;
     // Start is called before the first frame update
     void Start()
     {
 
         scene = SceneManager.GetActiveScene();
-        if (scene.buildIndex > 0)
+        if (scene.buildIndex > 1)
         {
             PlayerScript.TommyEquipped = true;
         }
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         {
             PlayerScript.TommyEquipped = false;
         }
+        LastCheckPoint = new Vector2(-5, -2.5f);
     }
     
 }

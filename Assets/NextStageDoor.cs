@@ -7,22 +7,23 @@ public class NextStageDoor : MonoBehaviour
 {
     Animator anim;
     bool TouchedPlayer;
+    Scene scene;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         anim.SetBool("Open", false);
+        scene = SceneManager.GetActiveScene();
     }
 
     private void Update()
     {
         if (TouchedPlayer)
         {
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
-                SceneManager.LoadScene("Stage 2");
-
+                SceneManager.LoadScene(scene.buildIndex+1);
             }
         }
     }

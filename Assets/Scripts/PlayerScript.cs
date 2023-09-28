@@ -21,10 +21,13 @@ public class PlayerScript : MonoBehaviour
 
     public static bool TommyEquipped;
     public GameObject Tommy;
+
+    Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         isGrappling = false;
         
         transform.position = GameManager.LastCheckPoint;
@@ -44,7 +47,15 @@ public class PlayerScript : MonoBehaviour
         {
             rb.velocity += new Vector2(x/50 , 0);
         }
-        
+
+        if (rb.velocity.magnitude < 0.2f)
+        {
+            anim.SetBool("Run", false);
+        }
+        else
+        {
+            anim.SetBool("Run", true);
+        }
 
         if (x > 0)
         {
