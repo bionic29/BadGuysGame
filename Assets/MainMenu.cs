@@ -23,10 +23,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void CheckHiScore()
+    public void Credits()
     {
-        PanelOpened = true;
-        HiScorePanel.SetActive(true);
+        SceneManager.LoadScene(5);
     }
 
     public void OpenOptions()

@@ -91,9 +91,10 @@ public class PlayerScript : MonoBehaviour
         {
             if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Movables")
         {
-            isGrappling = false;
-            JumpAble = true;
-        }
+                isGrappling = false;
+                JumpAble = true;
+                anim.SetBool("Jump", false);
+            }
     }
     }
 
@@ -105,6 +106,7 @@ public class PlayerScript : MonoBehaviour
             {
                 isGrappling = false;
                 JumpAble = true;
+                anim.SetBool("Jump", false);
             }
         }
     }
@@ -113,6 +115,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Movables")
         {
+            anim.SetBool("Jump", true);
             JumpAble = false;
         }
 

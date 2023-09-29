@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     {
 
         scene = SceneManager.GetActiveScene();
-        if (scene.buildIndex > 1)
+        if (scene.buildIndex > 2)
         {
             PlayerScript.TommyEquipped = true;
         }
